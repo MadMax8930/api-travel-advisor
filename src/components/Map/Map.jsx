@@ -12,7 +12,7 @@ const Map = ({ setCoordinates, setBounds, coordinates, places, setChildClicked }
 
   return (
     <div className={classes.mapContainer}>
-      {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20955.85644620343!2d2.5228927!3d48.96334745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61456bd970c23%3A0x203ec108eca76e70!2sibis%20Villepinte%20Parc%20Expos!5e0!3m2!1sen!2sfr!4v1681648333504!5m2!1sen!2sfr" width="100%" height="100%" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe> */}
+      {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d320369.20572566276!2d71.14975410719227!3d51.14748245542033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424580c47db54609%3A0x97f9148dddb19228!2sAstana%20020000%2C%20Kazakhstan!5e0!3m2!1sen!2sfr!4v1681679812948!5m2!1sen!2sfr" width="100%" height="100%" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe> */}
       <GoogleMapReact
          bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY }}
          defaultCenter={coordinates}
