@@ -3,22 +3,22 @@ import { CircularProgress, Grid, Typography, InputLabel, MenuItem, FormControl, 
 import PlaceDetails from '../PlaceDetails/PlaceDetails';
 import useStyles from './styles';
 
-const List = () => {
+const List = ({ places }) => {
    const classes = useStyles();
    const [type, setType] = useState('restaurants');
    const [rating, setRating] = useState('');
 
-   const places = [   // dummy
-      { name: 'Pizza Hut' }, 
-      { name: 'Hotel California'}, 
-      { name: 'Best Steak'},
-      { name: 'Mcdonalds' }, 
-      { name: 'Subway'}, 
-      { name: 'Taco Bell'},
-      { name: 'Sushi Palace' }, 
-      { name: 'Burger House'}, 
-      { name: 'Fit Gym'},
-   ];
+   // const places = [   // dummy
+   //    { name: 'Pizza Hut' }, 
+   //    { name: 'Hotel California'}, 
+   //    { name: 'Best Steak'},
+   //    { name: 'Mcdonalds' }, 
+   //    { name: 'Subway'}, 
+   //    { name: 'Taco Bell'},
+   //    { name: 'Sushi Palace' }, 
+   //    { name: 'Burger House'}, 
+   //    { name: 'Fit Gym'},
+   // ];
 
   return (
     <div className={classes.container}>
