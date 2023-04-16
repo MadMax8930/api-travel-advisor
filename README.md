@@ -1,4 +1,7 @@
-npx create-react-app ./
+API Travel-Advisor
+
+- npx create-react-app ./
+- npm i @material-ui/core @material-ui/icons @material-ui/lab @react-google-maps/api axios google-map-react --legacy-peer-deps
 
 
 ### `npm start`
