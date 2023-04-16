@@ -1,12 +1,18 @@
-API Travel-Advisor
+### API Travel-Advisor made wih [`npx create-react-app ./`]
 
-- npx create-react-app ./
-- npm i @material-ui/core @material-ui/icons @material-ui/lab @react-google-maps/api axios google-map-react --legacy-peer-deps
+API: https://rapidapi.com/apidojo/api/travel-advisor/
 
+### [`Google API`]: 
 
-api: https://rapidapi.com/apidojo/api/travel-advisor/
+Maps Javascript API & Places API
 
-### `npm start`
+### Dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+axios 
+@material-ui/core 
+@material-ui/icons 
+@material-ui/lab 
+@react-google-maps/api
+google-map-react
+
+### `npm start` to run the app in the development mode.
